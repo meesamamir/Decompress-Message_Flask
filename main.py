@@ -44,8 +44,8 @@ def uncompressor(input):
     # Using Regular Expressions (regex) we can extract a group of an integer and an alphanumeric character
     # Functionality of this has been extended to extracting a group of an integer 
     #  followed a string of any length
-    #   example1: '1a2b3c' = ['1a', '2b', '3c] 
-    #   example2: '3mno5abcd6xyz' = ['3mno', '5abcd', '6xyz']
+    #  example1: '1a2b3c' = ['1a', '2b', '3c] 
+    #  example2: '3mno5abcd6xyz' = ['3mno', '5abcd', '6xyz']
     match = re.findall(r'\d{1}[a-zA-Z]*', input)
 
     # string variable to hold the decompressed message
