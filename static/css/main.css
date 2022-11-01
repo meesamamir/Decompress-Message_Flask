@@ -1,0 +1,73 @@
+body{
+    background: rgb(86,231,255);
+    background: linear-gradient(0deg, rgb(255, 238, 86) 0%, rgb(230, 220, 243) 100%);
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: black;
+    font: -apple-system-body ;
+    font-family: "Helvetica Neue", serif;
+    font-size: 2.1em;
+}
+
+h4{
+    line-height: 0.2;
+    text-align: center;
+    color: black;
+    font: -apple-system-body ;
+    font-family: "Helvetica Neue", serif;
+    font-size: 1.2em
+
+}
+
+a{
+    line-height: 0.5;
+    text-align: center;
+    color: black;
+    font: -apple-system-body ;
+    font-family: "Helvetica Neue", serif;
+    font-size: 1.1em
+
+}
+
+p {
+    text-align: center;
+    animation: ease;
+    color: black;
+    font: -apple-system-body ;
+    font-family: "Helvetica Neue", serif;
+    font-size: 1.5em;
+}
+
+input{
+    font: caption;
+    font-size: 1.2em;
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+pre{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+table{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/*Button*/
+#generate{
+    background-color: white;
+    color: black;
+}
+/*Hover action on the button*/
+#generate:hover {
+    cursor: pointer;
+    background-color: lightyellow;
+}
+
