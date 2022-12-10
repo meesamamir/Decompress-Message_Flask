@@ -2,7 +2,7 @@
 Flask web app that can decompress compressed messages
 
 # Documentation:
-- Web application solution is live at:  http://meesamamir.pythonanywhere.com/
+- Web application solution is live at:  https://meesamamir.pythonanywhere.com/
 - Deployed on PythonAnywhere
 - Languages used: Python-Flask, HTML, CSS
 - App has 2 routes: "/" and "/results", both render home.html
@@ -16,7 +16,7 @@ Flask web app that can decompress compressed messages
     - CSS used to style the HTML page
     
 # Running
-- To run web app, you can directly visit: http://meesamamir.pythonanywhere.com/
+- To run web app, you can directly visit: https://meesamamir.pythonanywhere.com/
 - To run it locally via terminal, locate this directory ("Decompress-Message_Flask") on your machine, and start terminal
     inside it. Use python command:  "python main.py" to compile;
     this outputs the web app link.
